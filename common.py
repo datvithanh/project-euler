@@ -27,3 +27,5 @@ def count_divisors(x):
 
     return np.prod([x+1 for x in factor_dict.values()])
 
+    
+
