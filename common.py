@@ -1,5 +1,6 @@
 from math import sqrt
-import numpy as np 
+import numpy as np
+
 
 def isPrime(n):
     if n == 2:
@@ -27,5 +28,15 @@ def count_divisors(x):
 
     return np.prod([x+1 for x in factor_dict.values()])
 
-    
+def sum_divisor(n):
+    divisors = [1]
+    i = 2
+    while i <= sqrt(n):
+        if n % i == 0:
+            if i*i == n:
+                divisors = divisors + [i]
+            else:
+                divisors = divisors + [i, n//i]
+        i += 1
 
+    return sum(divisors)
