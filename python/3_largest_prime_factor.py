@@ -9,5 +9,5 @@ while(i <= math.sqrt(n)):
         n = n//i
     else:
         i = i+1
+        
 print(n)
-print(math.sqrt(n))

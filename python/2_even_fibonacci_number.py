@@ -4,7 +4,7 @@ fib[0] = 1
 fib[1] = 2
 i = 1
 
-while(fib[i] <= 20):
+while(fib[i] <= 4000000):
     i += 1
     fib[i] = fib[i-1] + fib[i-2]
 
