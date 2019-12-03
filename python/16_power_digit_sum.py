@@ -1,5 +1,3 @@
+res = sum([int(x) for x in str(2**1000)])
 
-#bignum
-
-for i in range(1,64):
-    print(2**i)
+print(res)

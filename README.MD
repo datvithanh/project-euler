@@ -14,13 +14,13 @@ python3, gcc 5.2 c++14
 |Problem 8: Largest product in a series|8_largest_product_in_a_series.py|23514624000|
 |Problem 9: Special Pythagorean triplet|9_special_pythagorean_triplet.py|31875000|
 |Problem 10: Summation of primes|10_summation_of_primes.py|142913828922|
-|Problem 11: Largest product in a grid|||
+|Problem 11: Largest product in a grid|11_largest_product_in_a_grid.py|70600674|
 |Problem 12: Highly divisible triangular number|12_highly_divisible_triangular_number.py|76576500|
 |Problem 13: Large sum|13_large_sum.py|5537376230|
-|Problem 14: Longest Collatz sequence|||
+|Problem 14: Longest Collatz sequence|14_longest_collatz_sequence.py|837799|
 |Problem 15: Lattice paths|15_lattice_path.py|137846528820|
-|Problem 16: Power digit sum|||
-|Problem 17: Number letter counts|||
+|Problem 16: Power digit sum|16_power_digit_sum.py|1366|
+|Problem 17: Number letter counts|17_number_letter_counts.py|21124|
 |Problem 18: Maximum path sum I|18_maximum_path_sum_i.py|1074|
 |Problem 19: Counting Sundays|19_counting_sundays.py|171|
 |Problem 20: Factorial digit sum|20_factorial_digit_sum.py|648|
@@ -160,7 +160,7 @@ python3, gcc 5.2 c++14
 |Problem 154: Exploring Pascal's pyramid|||
 |Problem 155: Counting Capacitor Circuits|||
 |Problem 156: Counting Digits|||
-|Problem 157: Solving the diophantine equation /+/= /|||
+|Problem 157: Solving the diophantine equation /+/= / |||
 |Problem 158: Exploring strings for which only one character comes lexicographically after its neighbour to the left|||
 |Problem 159: Digital root sums of factorisations|||
 |Problem 160: Factorial trailing digits|||
@@ -670,3 +670,28 @@ python3, gcc 5.2 c++14
 |Problem 664: An infinite game|||
 |Problem 665: Proportionate Nim|||
 |Problem 666: Polymorphic Bacteria|||
+|Problem 667: Moving Pentagon|||
+|Problem 668: Square root smooth Numbers|||
+|Problem 669: The King's Banquet|||
+|Problem 670: Colouring a Strip|||
+|Problem 671: Colouring a Loop|||
+|Problem 672: One more one|||
+|Problem 673: Beds and Desks|||
+|Problem 674: Solving $\mathcal{I}$-equations|||
+|Problem 675: $2^{\omega(n)}$|||
+|Problem 676: Matching Digit Sums|||
+|Problem 677: Coloured Graphs|||
+|Problem 678: Fermat-like Equations|||
+|Problem 679: Freefarea|||
+|Problem 680: Yarra Gnisrever|||
+|Problem 681: Maximal Area|||
+|Problem 682: 5-Smooth Pairs|||
+|Problem 683: The Chase II|||
+|Problem 684: Inverse Digit Sum|||
+|Problem 685: Inverse Digit Sum II|||
+|Problem 686: Powers of Two|||
+|Problem 687: Shuffling Cards|||
+|Problem 688: Piles of Plates|||
+|Problem 689: Binary Series|||
+|Problem 690: Tom and Jerry|||
+|Problem 691: Long substring with many repetitions|||

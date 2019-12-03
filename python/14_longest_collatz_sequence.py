@@ -7,10 +7,17 @@ def collatz_seq_len(n):
     return len(seq)
 
 maxlen = 0
+result = 0
 
 for i in range(1000000):
     if i % 1e4 == 0:
         print(i)
-    maxlen = max(maxlen, collatz_seq_len(i))
+    
+    seq_len = collatz_seq_len(i)
+
+    if seq_len > maxlen:
+        maxlen = seq_len
+        result = i
     
 print(maxlen)    
+print(result)

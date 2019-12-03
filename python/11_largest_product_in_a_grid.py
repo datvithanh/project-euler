@@ -26,20 +26,19 @@ a = []
 diag = [(0,0), (1,1), (2,2), (3,3)]
 hori = [(0,0), (0,1), (0,2), (0,3)]
 vert = [(0,0), (1,0), (2,0), (3,0)]
+diag_1 = [(0,0), (-1, 1), (-2, 2), (-3, 3)]
 
 max_product = 0
 
 for i in s.split('\n'):
     a.append([int(x) for x in i.split(' ')])
 
-for i in range(17):
-    for j in range(17):
+for i in range(16):
+    for j in range(16):
         max_product = max(max_product, max([prod([a[i+u][j+v] for u, v in diag]),prod([a[i+u][j+v] for u, v in hori]),prod([a[i+u][j+v] for u, v in vert])]))
-        if prod([a[i+u][j+v] for u, v in diag]) == 51267216:
-            print(i,j)
-        if prod([a[i+u][j+v] for u, v in hori]) == 51267216:
-            print(i,j)
-        if prod([a[i+u][j+v] for u, v in vert]) == 51267216:
-            print(i,j)
+
+for i in range(3, 20):
+    for j in range(16):
+        max_product = max(max_product, prod([a[i+u][j+v] for u, v in diag_1]))
 
 print(max_product)

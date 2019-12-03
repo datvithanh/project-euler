@@ -1,5 +1,6 @@
 import requests
 from parsel import Selector
+
 url = 'https://projecteuler.net/show=all'
 
 response = requests.get(url)

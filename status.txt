@@ -8,9 +8,13 @@
 8|8_largest_product_in_a_series.py|23514624000
 9|9_special_pythagorean_triplet.py|31875000
 10|10_summation_of_primes.py|142913828922
+11|11_largest_product_in_a_grid.py|70600674
 12|12_highly_divisible_triangular_number.py|76576500
 13|13_large_sum.py|5537376230
+14|14_longest_collatz_sequence.py|837799
 15|15_lattice_path.py|137846528820
+16|16_power_digit_sum.py|1366
+17|17_number_letter_counts.py|21124
 18|18_maximum_path_sum_i.py|1074
 19|19_counting_sundays.py|171
 20|20_factorial_digit_sum.py|648
